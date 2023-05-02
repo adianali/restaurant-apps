@@ -1,13 +1,12 @@
-class footerRestaurantKu extends HTMLElement{
-    connectedCallback(){
-        this.render();
+class footerRestaurantKu extends HTMLElement {
+  connectedCallback() {
+    this.render();
+  }
 
-    }
-
-    render() {
-        this.innerHTML = `<footer>
+  render() {
+    this.innerHTML = `
         <p  tabindex="0">Copyright &copy; 2023 - RestaurantKu.</p>
-        </footer>  `;
-    }
+         `;
+  }
 }
-customElements.define("restaurantku-footer", footerRestaurantKu)
+customElements.define('restaurantku-footer', footerRestaurantKu);

@@ -2,7 +2,16 @@ footer{
     background-color: rgb(80, 117, 131);
     text-align: center;
     padding: 2rem 0;
-    margin-top: 3rem;
+    margin-top: 40rem;
+}
+
+footer p {
+    text-decoration: none;
+    color: white;
+    min-height: 44px;
+    min-width: 44px;
+    line-height: 44px;
+    display: inline-block;
 }
 
 footer p:hover{

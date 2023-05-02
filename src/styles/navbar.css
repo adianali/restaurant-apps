@@ -1,3 +1,6 @@
+header {
+    display: inline;
+}
 nav {
     display: flex;
     background-color: rgb(80, 117, 131);
@@ -5,8 +8,9 @@ nav {
     padding: 20px 0;
     width: 100%;
     justify-content: space-around;
-    margin-inline: auto;
     position: fixed;
+    height: auto;
+    z-index: 100;
 }
 nav ul {
     display: flex;

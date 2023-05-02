@@ -1,11 +1,10 @@
-class navRestaurantKu extends HTMLElement{
-    connectedCallback(){
-        this.render();
+class navRestaurantKu extends HTMLElement {
+  connectedCallback() {
+    this.render();
+  }
 
-    }
-
-    render() {
-        this.innerHTML = `<nav>
+  render() {
+    this.innerHTML = `<nav>
         <div class="logo">
         <a href="index.html"><h4>RestaurantKu</h4></a>
         </div>
@@ -16,12 +15,12 @@ class navRestaurantKu extends HTMLElement{
         </button>
 
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Favorite</a></li>
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/favorite">Favorite</a></li>
             <li><a href="https://github.com/adianali">About Us</a></li>
         </ul>
        
     </nav>`;
-    }
+  }
 }
-customElements.define("restaurantku-nav", navRestaurantKu)
+customElements.define('restaurantku-nav', navRestaurantKu);
